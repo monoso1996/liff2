@@ -103,6 +103,7 @@
       await liff.init({ liffId: "1656600249-LwlzqaON" })
       getEnvironment()
       getUserProfile()
+      var profile = await liff.getProfile()
       location.replace("http://hdsupport.softsquaregroup.com:8181/apex/f?p=HDM105:LOGIN_DESKTOP:6752691269412:"+ profile.userId +":::::")
       // getContext()
       // getFriendship()
