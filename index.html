@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="css/style.css" media="all">
 </head>
 <body>
-  <p id="os"><b>OS:</b> </p>
+  <p ><b>Go to EPOS</b> </p>
+  <p ><b>Case: HTTPS</b> </p>
+  <!-- <p id="os"><b>OS:</b> </p>
   <p id="language"><b>Language:</b> </p>
   <p id="version"><b>Version:</b> </p>
   <p id="isInClient"><b>isInClient:</b> </p>
@@ -34,7 +36,7 @@
   <button onclick="openWindow()">Open Window</button>
   <button id="btnScanCode" onclick="scanCode()">Scan Code</button>
   <button id="btnLogOut" onclick="logOut()">Log Out</button>
-  <button id="btnClose" onclick="closed()">Close</button>
+  <button id="btnClose" onclick="closed()">Close</button> -->
 
   <!-- <script src="js/vconsole.min.js"></script> -->
   <!-- <script>
@@ -101,10 +103,10 @@
     async function main() {
       //  alert("Welcome to My LIFF")
       await liff.init({ liffId: "1656600249-LwlzqaON" })
-      getEnvironment()
-      getUserProfile()
+      // getEnvironment()
+      // getUserProfile()
       var profile = await liff.getProfile()
-      location.replace("https://apexmmd.jaymart.org/apex/f?p=4550:1:11474943493751:::::")
+      location.replace("https://apexmmd.jaymart.org/apex/f?p=EPOSDEV:LOGIN_DESKTOP")
       // location.replace("http://hdsupport.softsquaregroup.com:8181/apex/f?p=HDM105:LOGIN_DESKTOP::"+ profile.userId +":::::")
       // getContext()
       // getFriendship()
